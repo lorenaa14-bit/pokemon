@@ -1,0 +1,63 @@
+/* Estils generals per centrar la targeta */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Capa principal de la targeta */
+.pokemon-card {
+    background-color: #f8f2f2; /* Gris clar */
+    border-radius: 16px;       /* Cantonades arrodonides */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Ombra per profunditat */
+    padding: 24px;             /* Marge interior */
+    text-align: center;
+    width: 300px;
+}
+
+/* Imatge del Pokémon */
+.pokemon-image {
+    max-width: 100%;           /* Que no sobrepassi el contenidor */
+    border-radius: 12px;       /* Cantonades arrodonides */
+    margin-bottom: 16px;       /* Separació del text */
+}
+
+/* Informació del Pokémon */
+.pokemon-info {
+    background-color: #c8f7c5; /* Verd clar */
+    border-radius: 12px;
+    padding: 16px;
+}
+
+/* Nom del Pokémon */
+.pokemon-name {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Lletra distintiva */
+    color: #1b5e20; /* Color contrastant amb el fons */
+    margin: 0;
+}
+
+/* Tipus del Pokémon */
+.pokemon-type {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Colors específics per tipus */
+.pokemon-type.plant {
+    color: #2e7d32; /* Verd per a Planta */
+}
+
+.pokemon-type.poison {
+    color: #8e24aa; /* Morat per a Verí */
+}
+
+/* Descripció */
+.pokemon-description {
+    font-size: 0.9rem;         /* Més petita que el nom */
+    color: #666;               /* Gris clar */
+}
